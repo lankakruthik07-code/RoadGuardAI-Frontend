@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  color: #e8f1fb;
+  background: #06111d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid #39dbe5;
+  outline-offset: 3px;
+}
+::selection { background: #1a9ca8; color: #fff; }
+
+.resolve-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 11px;
+  border: 1px solid rgba(54, 211, 153, 0.35);
+  border-radius: 8px;
+  background: rgba(54, 211, 153, 0.1);
+  color: #36d399;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.resolve-button:hover {
+  background: rgba(54, 211, 153, 0.2);
+  transform: translateY(-1px);
+}
+
+.resolved-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #36d399;
+  font-size: 12px;
+  white-space: nowrap;
+}
