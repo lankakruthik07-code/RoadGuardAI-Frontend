@@ -25,7 +25,7 @@ import {
 import "./App.css";
 
 const API = "https://roadguardai-backend.onrender.com";
-const AI_API = "https://roadguardai-36z5.onrender.com";
+const AI_API = "https://roadguardai-36z5.onrender.com/analyze";
 
 function pretty(value) {
   if (value === null || value === undefined || value === "") {
