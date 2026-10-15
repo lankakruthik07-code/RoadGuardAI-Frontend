@@ -24,8 +24,8 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://localhost:8080/api/reports";
-const AI_API = "http://127.0.0.1:8000/analyze";
+const API = "https://roadguardai-backend.onrender.com";
+const AI_API = "https://roadguardai-36z5.onrender.com";
 
 function pretty(value) {
   if (value === null || value === undefined || value === "") {
